@@ -242,9 +242,9 @@
       <!-- Grid Bento: la categoría de hamburguesas ocupa más espacio (es la estrella) -->
       <div class="grid gap-6 lg:grid-cols-3">
 
-        <!-- TARJETA: Hamburguesas (destacada, ocupa 2 columnas en desktop) -->
+        <!-- TARJETA: Hamburguesas (destacada, ocupa fila completa en desktop) -->
         <div
-          class="lg:col-span-2 rounded-3xl border border-ember-500/20 bg-gradient-to-br from-ember-600/20 via-char-900/60 to-char-900/60 backdrop-blur-md p-8 shadow-xl shadow-black/30">
+          class="lg:col-span-3 rounded-3xl border border-ember-500/20 bg-gradient-to-br from-ember-600/20 via-char-900/60 to-char-900/60 backdrop-blur-md p-8 shadow-xl shadow-black/30">
           <div class="mb-6 flex items-center gap-3">
             <span class="text-3xl" aria-hidden="true">🍔</span>
             <h3 class="font-display text-2xl text-white sm:text-3xl">Hamburguesas</h3>
@@ -278,31 +278,76 @@
               <span class="font-display text-mustard">$80</span>
             </li>
           </ul>
+
+          <!-- Extras de $15 -->
+          <div class="mt-6 rounded-2xl border border-mustard/25 bg-mustard/5 px-5 py-4">
+            <p class="mb-3 text-xs font-bold uppercase tracking-[0.2em] text-mustard">✨ Extras — $15 c/u</p>
+            <div class="flex flex-wrap gap-2">
+              <span class="rounded-full border border-white/10 bg-char-950/70 px-3 py-1 text-sm font-medium text-zinc-300">Doble carne</span>
+              <span class="rounded-full border border-white/10 bg-char-950/70 px-3 py-1 text-sm font-medium text-zinc-300">Salchicha asadera</span>
+              <span class="rounded-full border border-white/10 bg-char-950/70 px-3 py-1 text-sm font-medium text-zinc-300">Champiñón</span>
+              <span class="rounded-full border border-white/10 bg-char-950/70 px-3 py-1 text-sm font-medium text-zinc-300">Huevo</span>
+              <span class="rounded-full border border-white/10 bg-char-950/70 px-3 py-1 text-sm font-medium text-zinc-300">Piña</span>
+              <span class="rounded-full border border-white/10 bg-char-950/70 px-3 py-1 text-sm font-medium text-zinc-300">Chorizo</span>
+              <span class="rounded-full border border-white/10 bg-char-950/70 px-3 py-1 text-sm font-medium text-zinc-300">Aros de cebolla</span>
+            </div>
+          </div>
         </div>
 
-        <!-- TARJETA: Hotdogs -->
-        <div class="rounded-3xl border border-white/10 bg-char-900/60 backdrop-blur-md p-8 shadow-xl shadow-black/30">
-          <div class="mb-6 flex items-center gap-3">
-            <span class="text-3xl" aria-hidden="true">🌭</span>
-            <h3 class="font-display text-2xl text-white">Hotdogs</h3>
+
+        <!-- FILA: Hotdogs + Chescos (comparten fila completa en desktop) -->
+        <div class="lg:col-span-3 grid gap-6 lg:grid-cols-2">
+
+          <!-- TARJETA: Hotdogs -->
+          <div class="rounded-3xl border border-white/10 bg-char-900/60 backdrop-blur-md p-8 shadow-xl shadow-black/30">
+            <div class="mb-6 flex items-center gap-3">
+              <span class="text-3xl" aria-hidden="true">🌭</span>
+              <h3 class="font-display text-2xl text-white">Hotdogs</h3>
+            </div>
+            <ul class="space-y-4">
+              <li class="ticket-edge flex items-center rounded-xl bg-char-950/60 px-4 py-3">
+                <span class="font-semibold text-zinc-100">Sencillo</span>
+                <span class="dotted-line"></span>
+                <span class="font-display text-mustard">$15</span>
+              </li>
+              <li class="ticket-edge flex items-center rounded-xl bg-char-950/60 px-4 py-3">
+                <span class="font-semibold text-zinc-100">Jumbo</span>
+                <span class="dotted-line"></span>
+                <span class="font-display text-mustard">$25</span>
+              </li>
+              <li class="ticket-edge flex items-center rounded-xl bg-char-950/60 px-4 py-3">
+                <span class="font-semibold text-zinc-100">Crispy</span>
+                <span class="dotted-line"></span>
+                <span class="font-display text-mustard">$35</span>
+              </li>
+            </ul>
           </div>
-          <ul class="space-y-4">
-            <li class="ticket-edge flex items-center rounded-xl bg-char-950/60 px-4 py-3">
-              <span class="font-semibold text-zinc-100">Sencillo</span>
-              <span class="dotted-line"></span>
-              <span class="font-display text-mustard">$15</span>
-            </li>
-            <li class="ticket-edge flex items-center rounded-xl bg-char-950/60 px-4 py-3">
-              <span class="font-semibold text-zinc-100">Jumbo</span>
-              <span class="dotted-line"></span>
-              <span class="font-display text-mustard">$25</span>
-            </li>
-            <li class="ticket-edge flex items-center rounded-xl bg-char-950/60 px-4 py-3">
-              <span class="font-semibold text-zinc-100">Crispy</span>
-              <span class="dotted-line"></span>
-              <span class="font-display text-mustard">$35</span>
-            </li>
-          </ul>
+
+          <!-- TARJETA: Chescos / Bebidas -->
+          <div class="rounded-3xl border border-white/10 bg-char-900/60 backdrop-blur-md p-8 shadow-xl shadow-black/30">
+            <div class="mb-6 flex items-center gap-3">
+              <span class="text-3xl" aria-hidden="true">🥤</span>
+              <h3 class="font-display text-2xl text-white">Chescos</h3>
+            </div>
+            <ul class="space-y-4">
+              <li class="ticket-edge flex items-center rounded-xl bg-char-950/60 px-4 py-3">
+                <span class="font-semibold text-zinc-100">Vidrio</span>
+                <span class="dotted-line"></span>
+                <span class="font-display text-mustard">$25</span>
+              </li>
+              <li class="ticket-edge flex items-center rounded-xl bg-char-950/60 px-4 py-3">
+                <span class="font-semibold text-zinc-100">Desechable</span>
+                <span class="dotted-line"></span>
+                <span class="font-display text-mustard">$30</span>
+              </li>
+              <li class="ticket-edge flex items-center rounded-xl border border-ember-500/40 bg-ember-500/10 px-4 py-3">
+                <span class="font-semibold text-white">Familiar <span class="text-xs font-normal text-zinc-400">(incluye vasos)</span></span>
+                <span class="dotted-line"></span>
+                <span class="font-display text-mustard">$60</span>
+              </li>
+            </ul>
+          </div>
+
         </div>
 
         <!-- TARJETA: Fritas y Botanas (ancho completo) -->
@@ -312,7 +357,7 @@
             <span class="text-3xl" aria-hidden="true">🍟</span>
             <h3 class="font-display text-2xl text-white sm:text-3xl">Fritas y botanas</h3>
           </div>
-          <ul class="grid gap-4 sm:grid-cols-2 lg:grid-cols-5">
+          <ul class="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             <li class="ticket-edge flex items-center rounded-xl bg-char-950/60 px-4 py-3">
               <span class="font-semibold text-zinc-100">Francesa</span>
               <span class="dotted-line"></span>
@@ -329,14 +374,33 @@
               <span class="font-display text-mustard">$45</span>
             </li>
             <li class="ticket-edge flex items-center rounded-xl bg-char-950/60 px-4 py-3">
-              <span class="font-semibold text-zinc-100">Dedos de queso</span>
+              <span class="font-semibold text-zinc-100">Papa Waffles</span>
               <span class="dotted-line"></span>
-              <span class="font-display text-mustard">$90</span>
+              <span class="font-display text-mustard">$40</span>
             </li>
-            <li class="ticket-edge flex items-center rounded-xl border border-mustard/40 bg-mustard/10 px-4 py-3">
-              <span class="font-semibold text-white">Pa' compartir</span>
-              <span class="dotted-line"></span>
-              <span class="font-display text-mustard">$150</span>
+            <li class="ticket-edge flex flex-col rounded-xl border border-ember-500/40 bg-ember-500/10 px-4 py-3 sm:col-span-2">
+              <div class="flex items-center w-full">
+                <span class="font-semibold text-white">Papa Mix</span>
+                <span class="dotted-line"></span>
+                <span class="font-display text-mustard">$130</span>
+              </div>
+              <p class="mt-1 text-xs text-zinc-400">Francesa, gajo, wafles y aros de cebolla.</p>
+            </li>
+            <li class="ticket-edge flex flex-col rounded-xl bg-char-950/60 px-4 py-3">
+              <div class="flex items-center w-full">
+                <span class="font-semibold text-zinc-100">Dedos de queso</span>
+                <span class="dotted-line"></span>
+                <span class="font-display text-mustard">$90</span>
+              </div>
+              <p class="mt-1 text-xs text-zinc-400">6 piezas.</p>
+            </li>
+            <li class="ticket-edge flex flex-col rounded-xl border border-mustard/40 bg-mustard/10 px-4 py-3">
+              <div class="flex items-center w-full">
+                <span class="font-semibold text-white">Pa' compartir</span>
+                <span class="dotted-line"></span>
+                <span class="font-display text-mustard">$150</span>
+              </div>
+              <p class="mt-1 text-xs text-zinc-400">Tiras crispy, aros de cebolla, dedo de queso, papas.</p>
             </li>
           </ul>
         </div>
