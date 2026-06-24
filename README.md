@@ -29,9 +29,12 @@ La página cuenta con una interfaz responsiva, una estética oscura sofisticada 
 ## ✨ Características Destacadas
 
 *   **⚡ Conversión Rápida por WhatsApp:** Botones de orden integrados estratégicamente en la barra de navegación, la sección Hero, debajo del menú y un botón flotante permanente para la navegación móvil.
-*   **🍱 Menú Bento Grid:** Presentación visual e interactiva de las hamburguesas, hotdogs y botanas utilizando el popular diseño en formato "Bento Grid".
+*   **🍱 Menú Bento Grid Interactivo:** Presentación visual de hamburguesas, hotdogs, botanas y refrescos. Incluye acordeones interactivos para ver las descripciones de ingredientes detalladas en cada hamburguesa y hotdog (abriendo solo uno a la vez).
+*   **🕒 Indicador de Horario Activo en Tiempo Real:** Un badge dinámico en la sección de ubicación que muestra el estado del negocio ("Está por abrir", "Abierto ahora", "Por cerrar", "Cerrado por hoy") con colores visuales e indicador de pulso según la hora del sistema (actualizado automáticamente cada 30 segundos).
+*   **💬 Sección de Preguntas Frecuentes (FAQ):** Acordeones interactivos para resolver dudas sobre servicio a domicilio (modalidad Pick Up), métodos de pago (tarjeta, transferencia y efectivo), tiempos de entrega y el menú secreto.
+*   **🏷️ Extras como Badges/Chips:** Presentación visual moderna y limpia para los ingredientes adicionales de $15.
 *   **📍 Integración de Google Maps:** Mapa embebido dinámicamente y botón de redirección ("Cómo llegar") optimizados para ubicar con exactitud la sucursal (`20.9379957, -89.6187928`).
-*   **📱 Diseño Responsivo & Premium:** Adaptado al 100% para pantallas móviles, tablets y ordenadores con tipografías seleccionadas de Google Fonts (*Anton* e *Inter*).
+*   **📱 Diseño Responsivo & Premium:** Adaptado al 100% para pantallas móviles, tablets y ordenadores con tipografías seleccionadas de Google Fonts (*Anton* e *Inter*) y el logo de la marca visible de forma responsiva en la cabecera.
 *   **🚀 Optimización para Vercel:** Configuración lista para Vercel (`vercel.json`) con URLs limpias (oculta el `.html`) y directivas de almacenamiento en caché agresivas para cargar las imágenes y assets en milisegundos.
 
 ---
@@ -96,6 +99,9 @@ Para desplegar tu proyecto en Vercel:
 ## 🍔 Chichi Burger Información de Negocio
 *   **Ubicación:** C. 111 entre 48 y 50, Cinco Colonias, 97280 Mérida, Yuc.
 *   **Horario:** Lunes a Domingo, de 7:00 p.m. a 12:00 a.m.
-*   **Contacto (WhatsApp):** +52 999 304 3753
+*   **Modalidad de Servicio:** Pick Up (Recoger en sucursal - sin servicio a domicilio por el momento).
+*   **Métodos de Pago:** Efectivo, Transferencia y Tarjeta de Débito/Crédito.
+*   **Contacto (WhatsApp):** [+52 999 304 3753](https://wa.me/529993043753)
+*   **Facebook:** [Chichi Burger](https://www.facebook.com/people/Chichi-Burguer/61591155090389/)
 *   **Instagram:** [@oficialchichiburguer](https://www.instagram.com/oficialchichiburguer/)
 *   **TikTok:** [@chichiburgueroficial](https://www.tiktok.com/@chichiburgueroficial?lang=es)
