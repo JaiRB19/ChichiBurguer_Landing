@@ -1,11 +1,11 @@
-# ğŸ” Chichi Burger - Landing Page Oficial
+# ?? Chichi Burger - Landing Page Oficial
 
 <p align="center">
   <img src="assets/logo.png" alt="Chichi Burger Logo" width="150px" style="border-radius: 50%;" />
 </p>
 
 <p align="center">
-  <strong>El verdadero antojo de la noche en Cinco Colonias, MÃ©rida.</strong>
+  <strong>El verdadero antojo de la noche en Cinco Colonias, Mérida.</strong>
 </p>
 
 <p align="center">
@@ -14,94 +14,99 @@
   </a>
   <img src="https://img.shields.io/badge/Made_with-Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css" alt="Tailwind Badge" />
   <img src="https://img.shields.io/badge/Language-HTML5/JS-orange?style=for-the-badge" alt="HTML/JS Badge" />
+  <img src="https://img.shields.io/badge/PWA-Ready-purple?style=for-the-badge&logo=pwa" alt="PWA Ready Badge" />
 </p>
 
 ---
 
-## ğŸ“– DescripciÃ³n del Proyecto
+## ?? Descripción del Proyecto
 
-Este repositorio contiene la **Landing Page Oficial de Chichi Burger**, una aplicaciÃ³n web de una sola pÃ¡gina (Single Page Application) diseÃ±ada con un enfoque moderno, premium y de alta conversiÃ³n. Su propÃ³sito es servir como el canal digital informativo y de pedidos del negocio ubicado en la colonia Cinco Colonias, en MÃ©rida, YucatÃ¡n.
+Este repositorio contiene la **Landing Page Oficial de Chichi Burger**, una aplicación web de una sola página (Single Page Application) diseñada con un enfoque moderno, premium y de alta conversión. Su propósito es servir como el canal digital informativo y de pedidos del negocio ubicado en la colonia Cinco Colonias, en Mérida, Yucatán.
 
-La pÃ¡gina cuenta con una interfaz responsiva, una estÃ©tica oscura sofisticada (carbÃ³n, brasa y mostaza) y mÃºltiples llamados a la acciÃ³n (CTAs) que redirigen al usuario directo a realizar su orden mediante **WhatsApp**, optimizando las ventas a domicilio y para llevar.
-
----
-
-## âœ¨ CaracterÃ­sticas Destacadas
-
-*   **âš¡ ConversiÃ³n RÃ¡pida por WhatsApp:** Botones de orden integrados estratÃ©gicamente en la barra de navegaciÃ³n, la secciÃ³n Hero, debajo del menÃº y un botÃ³n flotante permanente para la navegaciÃ³n mÃ³vil.
-*   **ğŸ± MenÃº Bento Grid Interactivo:** PresentaciÃ³n visual de hamburguesas, hotdogs, botanas y refrescos. Incluye acordeones interactivos para ver las descripciones de ingredientes detalladas en cada hamburguesa y hotdog (abriendo solo uno a la vez).
-*   **ğŸ•’ Indicador de Horario Activo en Tiempo Real:** Un badge dinÃ¡mico en la secciÃ³n de ubicaciÃ³n que muestra el estado del negocio ("EstÃ¡ por abrir", "Abierto ahora", "Por cerrar", "Cerrado por hoy") con colores visuales e indicador de pulso segÃºn la hora del sistema (actualizado automÃ¡ticamente cada 30 segundos).
-*   **ğŸ’¬ SecciÃ³n de Preguntas Frecuentes (FAQ):** Acordeones interactivos para resolver dudas sobre servicio a domicilio (modalidad Pick Up), mÃ©todos de pago (tarjeta, transferencia y efectivo), tiempos de entrega y el menÃº secreto.
-*   **ğŸ·ï¸ Extras como Badges/Chips:** PresentaciÃ³n visual moderna y limpia para los ingredientes adicionales de $15.
-*   **ğŸ“ IntegraciÃ³n de Google Maps:** Mapa embebido dinÃ¡micamente y botÃ³n de redirecciÃ³n ("CÃ³mo llegar") optimizados para ubicar con exactitud la sucursal (`20.9379957, -89.6187928`).
-*   **ğŸ“± DiseÃ±o Responsivo & Premium:** Adaptado al 100% para pantallas mÃ³viles, tablets y ordenadores con tipografÃ­as seleccionadas de Google Fonts (*Anton* e *Inter*) y el logo de la marca visible de forma responsiva en la cabecera.
-*   **ğŸš€ OptimizaciÃ³n para Vercel:** ConfiguraciÃ³n lista para Vercel (`vercel.json`) con URLs limpias (oculta el `.html`) y directivas de almacenamiento en cachÃ© agresivas para cargar las imÃ¡genes y assets en milisegundos.
+La página cuenta con una interfaz responsiva, una estética oscura sofisticada (carbón, brasa y mostaza) y múltiples llamados a la acción (CTAs) que redirigen al usuario directo a realizar su orden mediante **WhatsApp**, optimizando las ventas en su modalidad de Pick Up. Recientemente optimizada para ofrecer una experiencia de usuario idéntica a la de una aplicación nativa móvil.
 
 ---
 
-## ğŸ› ï¸ TecnologÃ­as Utilizadas
+## ? Características Destacadas
 
-*   **HTML5** - Estructura semÃ¡ntica del sitio web.
-*   **Tailwind CSS** - Framework de utilidades CSS de Ãºltima generaciÃ³n para un diseÃ±o rÃ¡pido y pulido (integrado vÃ­a CDN con configuraciones personalizadas).
-*   **JavaScript (ES6)** - LÃ³gica interactiva.
-*   **Vercel** - Hosting estÃ¡tico en la nube con Edge Network.
+### ?? Experiencia App Móvil (UX/UI Avanzada)
+*   **PWA Ready:** Archivo `manifest.json` integrado. Los usuarios pueden instalar la página en su pantalla de inicio en iOS/Android como una aplicación nativa.
+*   **Animaciones Fade-Up al Scroll:** Implementación nativa con `IntersectionObserver` que revela las secciones y tarjetas del menú suavemente mientras el usuario hace scroll, creando una experiencia dinámica y premium.
+*   **Menú Drawer Deslizante:** Navegación móvil optimizada mediante un menú lateral tipo "hamburguesa" con efecto *glassmorphism* que mejora drásticamente la usabilidad en pantallas pequeñas.
+*   **Retroalimentación Táctil (Active States):** Botones y elementos interactivos que reaccionan al toque del usuario (`scale-95`), emulando la sensación táctil de las apps nativas.
+
+### ?? Menú Bento Grid Dinámico
+*   **Diseño Moderno:** Presentación visual estilo *Bento Grid* para el menú, destacando las categorías principales (Hamburguesas, Hotdogs, Alitas, Fritas).
+*   **Acordeones Interactivos:** Permite a los usuarios expandir cada producto para ver sus ingredientes detallados sin sobrecargar la pantalla visualmente.
+*   **Nuevas Adiciones:** Incluye la reciente integración de *Alitas*, *Boneless* (con selección de sabores como BBQ, Buffalo, Mango Habanero) y *Papanachos*.
+
+### ? Utilidades y Conversión
+*   **Conversión Rápida por WhatsApp:** Botones de orden estratégicos en la cabecera, hero section y menú drawer.
+*   **Indicador de Horario en Tiempo Real:** Un badge en la sección de ubicación que muestra el estado ("Está por abrir", "Abierto", "Cerrado") calculado en vivo con JavaScript.
+*   **Integración de Google Maps:** Mapa embebido y botón "Cómo llegar" directo a la ubicación exacta de la sucursal.
+*   **Preguntas Frecuentes (FAQ):** Sección clara sobre métodos de pago, tiempos de entrega y ausencia actual de servicio a domicilio.
 
 ---
 
-## ğŸ“ Estructura de Carpetas
+## ??? Tecnologías Utilizadas
 
-```bash
+*   **HTML5** - Estructura semántica del sitio web.
+*   **Tailwind CSS** - Framework de utilidades CSS integrado vía CDN con paleta de colores (`ember`, `mustard`, `char`) y animaciones personalizadas en el script de configuración.
+*   **JavaScript (ES6)** - Lógica interactiva nativa (Vanilla JS) para el menú Drawer, Acordeones, Intersection Observer y estado de horario en vivo. Ninguna dependencia externa pesada.
+*   **Vercel** - Optimización y configuración lista (`vercel.json`) para hosting estático de alto rendimiento.
+
+---
+
+## ?? Estructura del Proyecto
+
+```text
 ChichiBurguer/
-â”œâ”€â”€ assets/
-â”‚   â”œâ”€â”€ favicon/              # Favicons oficiales en mÃºltiples formatos (.ico, .png)
-â”‚   â”œâ”€â”€ logo.png              # Logotipo oficial del negocio
-â”‚   â””â”€â”€ burgers_and_hotdogs.png # Imagen de productos optimizada en el Hero
-â”œâ”€â”€ index.html                # CÃ³digo fuente principal de la Landing Page
-â”œâ”€â”€ vercel.json               # ConfiguraciÃ³n de rutas y cachÃ© para Vercel
-â””â”€â”€ README.md                 # DocumentaciÃ³n del proyecto
++-- assets/
+¦   +-- favicon/              # Favicons oficiales e íconos para PWA
+¦   +-- logo.png              # Logotipo oficial del negocio
+¦   +-- burgers_and_hotdogs.png # Imagen optimizada del Hero
++-- index.html                # Código fuente principal de la Landing Page
++-- manifest.json             # Manifiesto de PWA para instalación móvil
++-- vercel.json               # Configuración de rutas y caché para Vercel
++-- README.md                 # Documentación del proyecto
 ```
 
 ---
 
-## ğŸš€ CÃ³mo Ejecutar Localmente
+## ?? Cómo Ejecutar Localmente
 
-Dado que el proyecto estÃ¡ construido con tecnologÃ­as web nativas, no necesitas herramientas complejas de compilaciÃ³n para ejecutarlo:
+Dado que el proyecto está construido con tecnologías web nativas, no necesitas herramientas complejas de compilación:
 
-1.  Clona este repositorio:
+1.  **Clona este repositorio:**
     ```bash
     git clone https://github.com/tu-usuario/ChichiBurguer.git
     ```
-2.  Entra a la carpeta del proyecto:
+2.  **Entra a la carpeta del proyecto:**
     ```bash
     cd ChichiBurguer
     ```
-3.  Abre el archivo `index.html` en tu navegador preferido. 
-    *   *Tip:* Puedes usar extensiones como **Live Server** en VS Code para recarga en tiempo real mientras editas el cÃ³digo.
+3.  **Ejecuta el servidor:**
+    Abre el archivo `index.html` en tu navegador o utiliza **Live Server** (en VS Code) para probar las funcionalidades como PWA y Service Workers correctamente.
 
 ---
 
-## ğŸ“¦ Despliegue en Vercel
-
-Para desplegar tu proyecto en Vercel:
+## ?? Despliegue en Vercel
 
 1. Instala el CLI de Vercel (opcional):
    ```bash
    npm i -g vercel
    ```
-2. Ejecuta el comando de despliegue en la raÃ­z del proyecto:
+2. Ejecuta el comando de despliegue en la raíz del proyecto:
    ```bash
-   vercel
+   vercel --prod
    ```
-3. Sigue las breves instrucciones en pantalla y Â¡listo! Tu landing page estarÃ¡ activa con HTTPS y CDN global.
 
 ---
 
-## ğŸ” Chichi Burger InformaciÃ³n de Negocio
-*   **UbicaciÃ³n:** C. 111 entre 48 y 50, Cinco Colonias, 97280 MÃ©rida, Yuc.
+## ?? Chichi Burger Información de Negocio
+*   **Ubicación:** C. 111 entre 48 y 50, Cinco Colonias, 97280 Mérida, Yuc.
 *   **Horario:** Lunes a Domingo, de 7:00 p.m. a 12:00 a.m.
 *   **Modalidad de Servicio:** Pick Up (Recoger en sucursal - sin servicio a domicilio por el momento).
-*   **MÃ©todos de Pago:** Efectivo, Transferencia y Tarjeta de DÃ©bito/CrÃ©dito.
+*   **Métodos de Pago:** Efectivo, Transferencia y Tarjeta de Débito/Crédito.
 *   **Contacto (WhatsApp):** [+52 999 304 3753](https://wa.me/529993043753)
-*   **Facebook:** [Chichi Burger](https://www.facebook.com/people/Chichi-Burguer/61591155090389/)
-*   **Instagram:** [@oficialchichiburguer](https://www.instagram.com/oficialchichiburguer/)
-*   **TikTok:** [@chichiburgueroficial](https://www.tiktok.com/@chichiburgueroficial?lang=es)
+*   **Redes Sociales:** [Facebook](https://www.facebook.com/people/Chichi-Burguer/61591155090389/) | [Instagram](https://www.instagram.com/oficialchichiburguer/) | [TikTok](https://www.tiktok.com/@chichiburgueroficial?lang=es)

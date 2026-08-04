@@ -1,0 +1,24 @@
+{
+  "name": "Chichi Burger",
+  "short_name": "ChichiBurger",
+  "description": "Hamburguesas, hotdogs y botanas en Cinco Colonias, Mérida. Abierto de 7 PM a 12 AM.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0c0a08",
+  "theme_color": "#ff7a1a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "assets/favicon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/favicon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
